@@ -1,0 +1,31 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "vibecli",
+    "collectionId": "7c97dbc8-e936-45d3-a923-3f8f4e96d5f6",
+    "dateExported": "2024-10-09T19:25:43.788Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "a1220403-3d16-4a69-9887-1473584c7baa",
+            "name": "health",
+            "containerId": "",
+            "created": "2024-10-09T19:25:22.878Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "af89bd9b-913d-4d56-bf3c-78a9d121c949",
+            "colId": "7c97dbc8-e936-45d3-a923-3f8f4e96d5f6",
+            "containerId": "a1220403-3d16-4a69-9887-1473584c7baa",
+            "name": "health",
+            "url": "http://localhost:8080/v1/health",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-10-09T19:25:30.669Z",
+            "modified": "2024-10-09T19:25:30.669Z",
+            "headers": []
+        }
+    ],
+    "ref": "_IpjS3xKV1Sq8tR8YR60DQVDbOcpk_-g1RYFLPVp9vPmy2ZGFXucZssl8NilmkDzE9Oaomqr-PadtA01_QLdXw"
+}

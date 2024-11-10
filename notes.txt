@@ -1,0 +1,16 @@
+check this for TUI app - https://github.com/charmbracelet/bubbletea
+
+air init - for live reloading of golang api- it will create .air.toml file. check the file and exclude directories whenever necessary 
+
+--- 
+Golang migrate 
+
+- create migrations 
+migrate create -ext sql -dir ./cmd/migrate/migrations -seq create_users_table
+
+- run migrations UP 
+migrate -path=./cmd/migrate/migrations -database="postgres://admin:adminpassword@localhost/vibecli?sslmode=disable" up
+
+--- COnnecting to DB through Psql 
+psql -d vibecli -U admin -W 
+it will ask for password - give adminpassword (or whatever you have put in place)
